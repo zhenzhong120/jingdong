@@ -34,9 +34,7 @@
 .icon-fenlei:before {
   content: "\e652";
 }
-.icon-fenlei{
-  color:white;
-}
+
 
 .icon-jipiao:before {
   content: "\e61b";
@@ -45,9 +43,7 @@
 .icon-user:before {
   content: "\e608";
 }
-.icon-user{
-  color:white;
-}
+
 .icon-gouwuche-01:before {
   content: "\e60c";
 }
@@ -87,9 +83,7 @@
 .icon-sousuo:before {
   content: "\e610";
 }
-.icon-sousuo{
-  color:#CCCCCC;
-}
+
 .icon-xunzhang:before {
   content: "\e68b";
 }
@@ -109,9 +103,7 @@
 .icon-jingdong:before {
   content: "\e620";
 }
-.icon-jingdong{
-  color:red;
-}
+
 .icon-yingyong:before {
   content: "\e638";
 }
@@ -119,7 +111,38 @@
 .icon-fenlei1:before {
   content: "\e7e2";
 }
-/* .icon-fenlei{
-  font-size:20px;
-  color:black;
-} */
+.icon-fenlei1{
+  color:white;
+  display:inline-block;
+  font-size:15px;
+}
+.icon-gouwuche-01{
+  color:white;
+  font-size:18px;
+}
+.icon-fenlei{
+  color:white;
+}
+.icon-jingdong{
+  color:red;
+}
+.icon-hudiejie{
+  color:white;
+  font-size:18px;
+}
+.icon-sousuo{
+  color:#CCCCCC;
+}
+.icon-user{
+  color:white;
+  font-size:14px;
+}
+.icon-paihangbang{
+  color:red;
+  font-size:12px;
+}
+.icon-daishouhuo{
+  font-size:16px;
+  display: inline-block;
+  vertical-align: middle;
+}

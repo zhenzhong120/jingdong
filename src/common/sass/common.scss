@@ -1,0 +1,48 @@
+
+//移动端1px下边框和右边框
+@mixin borderBottom-1px($color) {
+    position: relative;
+    &::after {
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      border-bottom: 1px solid $color;
+      content: "";
+    }
+  }
+  @mixin borderRight-1px($color) {
+    position: relative;
+    &::after {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      border-right: 1px solid $color;
+      content: "";
+    }
+  }
+  
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+    .border-1px {
+      &::after {
+        -webkit-transform: scaleY(0.3333333);
+        transform: scaleY(0.3333333);
+      }
+    }
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+    .border-1px {
+      &::after {
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5);
+      }
+    }
+  }
+
+//rem单位转化
+@function p2r($size){
+@return ($size/2/100) * 1rem;
+}
