@@ -18,5 +18,5 @@ new Vue({
   el: '#app',
   router,
   components: { App },
- 1231231231 template: '<App/>'akjdfljaskljff
+ 1231231231 template: '<App/>'akjdfljaskljff11111
 })
